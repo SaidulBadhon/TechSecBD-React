@@ -36,6 +36,15 @@
   .NavbarPC{
     display: none;
   }
+  .NavbarMobile{
+    display: none;
+  }
+  .Haderlogo{
+    margin-left: 35%;
+  }
+  .Header{
+    background-color: transparent;
+  }
 }
 
 /* THIS IS FOR TABLATE*/
@@ -43,25 +52,9 @@
   .MenuIconButton{
     display: block;
   }
-
-/*}*/
-
-/* THIS IS FOR Desktop*/
-/*@media only screen and (min-width:1280px){*/
-  .MenuIconButton{
-    display: none;
+  .Header{
+    background-color: rgba(5,5,5,.2);
   }
-  .TitleBar{
-
-  }
-
-  /* .NavbarPC{
-    display: block;
-    position: relative;
-    width: 100%;
-
-    padding-left: 67%
-  } */
 
   .NavbarPC{
     display: flex;
@@ -88,5 +81,18 @@
   .Haderlogo{
     padding-right: 50PX;
     transform: translateX(-16%);
+  }
+  .MenuIconButton{
+    display: none;
+  }
+}
+
+/* THIS IS FOR Desktop*/
+@media only screen and (min-width:1280px){
+  .Header{
+    background-color: rgba(5,5,5,.2);
+  }
+  .MenuIconButton{
+    display: none;
   }
 }

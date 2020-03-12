@@ -56,6 +56,23 @@ form .form-group .form-group-object-left {
 
 form .form-button{
     margin-top: 1.5cm;
-    
+
     width: 100%;
+}
+
+
+
+/* AKA MOBILE MODE */
+@media only screen and (min-width:10px){
+
+}
+
+/* AKA TABLATE MODE */
+@media only screen and (min-width:650px){
+
+}
+
+/* AKA DESKTOP MODE */
+@media only screen and (min-width:1280px){
+
 }

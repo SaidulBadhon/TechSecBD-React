@@ -66,16 +66,6 @@ figure.BackgroundImageClass figcaption * {
     padding: 0;
 }
 
-.MainContent {
-    transform: translateY(-16%);
-
-    background-color: white;
-    margin: 0px 30px 0px;
-    height: 1275px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 20px rgba(0,0,0,.6);
-}
-
 .MainContent h2 {
     padding-top: 70px;
 }
@@ -88,4 +78,47 @@ figure.BackgroundImageClass figcaption * {
 hr.LineBraker  {
     border: 1px solid #E91E63;
 
+}
+
+
+
+
+
+/* AKA MOBILE MODE */
+@media only screen and (min-width:10px){
+  .MainContent {
+      transform: translateY(-4%);
+
+      background-color: white;
+      margin: 0px 30px 0px;
+      height: 3275px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 20px rgba(0,0,0,.6);
+  }
+}
+
+/* AKA TABLATE MODE */
+@media only screen and (min-width:650px){
+  .MainContent {
+      transform: translateY(-12%);
+
+      background-color: white;
+      margin: 0px 30px 0px;
+      height: 1800px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 20px rgba(0,0,0,.6);
+  }
+}
+
+/* AKA DESKTOP MODE */
+@media only screen and (min-width:1280px){
+  .MainContent {
+      transform: translateY(-16%);
+
+      background-color: white;
+      margin: 0px 30px 0px;
+      height: 1275px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 20px rgba(0,0,0,.6);
+  }
 }

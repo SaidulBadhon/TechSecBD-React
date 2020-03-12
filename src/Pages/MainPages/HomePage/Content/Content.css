@@ -1,28 +1,7 @@
 
-.ContentPage {
-  display: grid;
-  grid-template-columns: auto auto auto;
-
-  justify-content: center;
-  padding-top: 25px;
 
 
-}
 
-
-.ContentBox {
-  margin: 15px;
-  box-shadow: 0px 4px 20px rgba(0,0,0,.6);
-  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-  border-radius: 10px;
-  cursor: pointer;
-  width: 375px;
-  max-width: 375px;
-  height: 472px;
-  max-height: 472px;
-  overflow: hidden;
-
-}
 .ContentImg {
   border-radius: 10px;
   overflow: hidden;
@@ -63,7 +42,7 @@
 
   font-weight: 600;
   transition: .25s;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
 
 
@@ -75,4 +54,121 @@
 }
 
 .ContentInfo .SeeMore {
+  color: #3C4858;
+
+  font-weight: 500;
+  transition: .25s;
+  font-size: 15px;
+}
+.ContentInfo .SeeMore:hover {
+  color: #536073;
+  font-weight: 500;
+  transform: scale(1.05);
+  font-weight: 500;
+
+}
+
+
+/* AKA MOBILE MODE */
+@media only screen and (min-width:10px){
+  .ContentPage {
+    display: grid;
+    grid-template-columns: auto;
+
+    justify-content: center;
+    padding-top: 25px;
+
+
+  }
+
+  .ContentBox {
+    margin: 15px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,.6);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+    max-width: 375px;
+    height: 472px;
+    max-height: 472px;
+    overflow: hidden;
+  }
+}
+
+/* AKA TABLATE MODE */
+@media only screen and (min-width:650px){
+  .ContentPage {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    justify-content: center;
+    padding-top: 25px;
+
+
+  }
+
+  .ContentBox {
+    margin: 15px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,.6);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+    max-width: 375px;
+    height: 472px;
+    max-height: 472px;
+    overflow: hidden;
+  }
+}
+
+
+/* AKA BIG TABLATE MODE */
+@media only screen and (min-width:1060px){
+  .ContentPage {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    justify-content: center;
+    padding-top: 25px;
+
+
+  }
+
+  .ContentBox {
+    margin: 15px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,.6);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+    max-width: 375px;
+    height: 472px;
+    max-height: 472px;
+    overflow: hidden;
+  }
+}
+
+
+/* AKA DESKTOP MODE */
+@media only screen and (min-width:1300px){
+  .ContentPage {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    justify-content: center;
+    padding-top: 25px;
+  }
+
+  .ContentBox {
+    margin: 15px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,.6);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    border-radius: 10px;
+    cursor: pointer;
+    width: 375px;
+    max-width: 375px;
+    height: 472px;
+    max-height: 472px;
+    overflow: hidden;
+  }
 }
