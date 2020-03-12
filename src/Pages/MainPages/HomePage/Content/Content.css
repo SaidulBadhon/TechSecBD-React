@@ -1,0 +1,78 @@
+
+.ContentPage {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  justify-content: center;
+  padding-top: 25px;
+
+
+}
+
+
+.ContentBox {
+  margin: 15px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,.6);
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  border-radius: 10px;
+  cursor: pointer;
+  width: 375px;
+  max-width: 375px;
+  height: 472px;
+  max-height: 472px;
+  overflow: hidden;
+
+}
+.ContentImg {
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+.ContentImg img {
+  width: 375px;
+  max-width: 375px;
+  height: 260px;
+
+  border-radius: 10px;
+  transition: .25s;
+  overflow: hidden;
+
+}
+.ContentImg img:hover{
+  transform: scale(1.05);
+
+}
+
+.ContentInfo {
+  padding-top: 7px;
+  padding-left: 10px;
+  overflow: hidden;
+
+}
+
+.ContentInfo .Category {
+  color: green;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+
+}
+.ContentInfo .Heading {
+  color: #3C4858;
+
+  font-weight: 600;
+  transition: .25s;
+  font-size: 20px;
+  text-transform: uppercase;
+
+
+}
+.ContentInfo .Heading:hover {
+  color: #536073;
+  transform: scale(1.05);
+  font-weight: 600;
+}
+
+.ContentInfo .SeeMore {
+}

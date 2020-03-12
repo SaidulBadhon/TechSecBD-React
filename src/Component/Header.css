@@ -1,0 +1,92 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
+
+* {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.Header{
+  background-color: rgba(5,5,5,.2);
+  /*box-shadow: 0px 5px 8px rgba(5,5,5,.2);*/
+
+}
+
+.TitleBar .Haderlogo{
+  color: #fafafa;
+  text-shadow : 0px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 40px;
+}
+
+.MenuIconButton {
+  color: #fafafa;
+}
+
+.NavBarHead Button {
+  font-family: 'Roboto', sans-serif;
+  color: #fafafa;
+  font-size: 14px;
+}
+
+/* FOR MOBILE VIEW */
+@media only screen and (max-width:767px){
+  .MenuIconButton{
+    display: block;
+  }
+  .NavbarPC{
+    display: none;
+  }
+}
+
+/* THIS IS FOR TABLATE*/
+@media only screen and (min-width:768px){
+  .MenuIconButton{
+    display: block;
+  }
+
+/*}*/
+
+/* THIS IS FOR Desktop*/
+/*@media only screen and (min-width:1280px){*/
+  .MenuIconButton{
+    display: none;
+  }
+  .TitleBar{
+
+  }
+
+  /* .NavbarPC{
+    display: block;
+    position: relative;
+    width: 100%;
+
+    padding-left: 67%
+  } */
+
+  .NavbarPC{
+    display: flex;
+    position: relative;
+
+    width: 100%;
+    justify-content: flex-end;
+    padding:14px;
+  }
+
+  .NavbarMobile{
+    display: none;
+  }
+
+  .NavBarHead .NavBarTab{
+    margin-left: 10px;
+  }
+
+  .NavBarHead .NavBarTab:hover{
+    margin-left: 10px;
+    color: #E91E63;
+  }
+
+  .Haderlogo{
+    padding-right: 50PX;
+    transform: translateX(-16%);
+  }
+}
